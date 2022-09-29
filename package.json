@@ -1,0 +1,9 @@
+{
+  "name": "credit_card1",
+   "scripts": {},
+   "author": "Natali Homusko",
+   "dependencies": {
+    "axios": "^0.27.2",
+    "redom": "^3.29.1"
+  }
+}
