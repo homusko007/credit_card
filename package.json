@@ -1,9 +1,19 @@
 {
   "name": "credit_card1",
-   "scripts": {},
-   "author": "Natali Homusko",
-   "dependencies": {
+  "scripts": {
+    "test:unit": "jest",
+    "test": "npm i && jest"
+  },
+  "author": "Natali Homusko",
+  "dependencies": {
     "axios": "^0.27.2",
     "redom": "^3.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "cypress": "^11.1.0",
+    "jest": "^29.3.1"
   }
 }

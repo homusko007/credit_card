@@ -213,3 +213,9 @@
   line-height: 1;
   font-size: 12px;
 }
+
+.validation_message {
+  position: absolute;
+  bottom: 5%;
+  color: red;
+}
